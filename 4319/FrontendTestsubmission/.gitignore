@@ -1,0 +1,75 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.cache/
+.tmp/
+out/
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+logs/*.log
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log
+pnpm-debug.log*
+
+# Coverage / Testing
+coverage/
+.nyc_output/
+.cypress/
+playwright-report/
+test-results/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Frontend specific
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Backend specific
+backend/node_modules/
+backend/logs/
+backend/.env
+
+# Generated files
+*.tgz
+*.tar.gz
+*.zip
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Debugging
+*.tsbuildinfo
